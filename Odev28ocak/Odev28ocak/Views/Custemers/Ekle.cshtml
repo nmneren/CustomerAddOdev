@@ -1,0 +1,52 @@
+﻿@model Odev28ocak.Customer
+@{
+    ViewBag.Title = "Ekle";
+}
+
+<h1>Customers Ekle</h1>
+
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <form method="post">
+                <label>Id</label>
+                <br />
+                <input type="text" class="form-control" name="CustomerID" style="min-width:100%" />
+                <br />
+
+                <label>Şirket Adı</label>
+                <br />
+                <input type="text" class="form-control" name="CompanyName" style="min-width:100%" />
+                <br />
+
+                <label>İletişim Adı</label>
+                <br />
+                <input type="text" class="form-control" name="ContactName" style="min-width:100%" />
+                <br />
+
+                <label>Adres</label>
+                <br />
+                <input type="text" class="form-control" name="Address" style="min-width:100%" />
+                <br />
+
+                <label>Ülke</label>
+                <br />
+                <input type="text" class="form-control" name="Country" style="min-width:100%" />
+                <br />
+
+                <label>Şehir</label>
+                <br />
+                <input type="text" class="form-control" name="City" style="min-width:100%" />
+                <br />
+
+                <label>Telefon</label>
+                <br />
+                <input type="text" class="form-control" name="Phone" style="min-width:100%" />
+                <br />
+
+                <input type="submit" value="Kaydet" class="btn btn-success" style="min-width:100%" />
+
+            </form>
+        </div>
+    </div>
+</div>
